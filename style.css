@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#prevBtn {
+  margin-left: 45%;
+  margin-right: 5px;
+}
+
+.dayDate {
+  width: 100px;
+  height: 100px;
+  vertical-align: top;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+i {
+  color: #d3d3d3;
+  margin-left: 5px;
+}
+
+i:hover {
+  cursor: pointer;
+  color: black;
+}
+
+#addEventContainer {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+}
+
+#addEvent {
+  background-color: white;
+  padding: 30px 50px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#closeBtn {
+  margin-left: 5px;
+}
+
+.eventDisplay:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.detailContainer {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.details {
+  background-color: white;
+  padding: 30px 50px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+a {
+  margin-left: 45%;
+}
